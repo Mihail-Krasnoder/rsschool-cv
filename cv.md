@@ -1,4 +1,4 @@
-![photo](/smallPersonalPhoto.png)
+![photo](/rsschool-cv/smallPersonalPhoto.png)
 # Mihail Vasilika
 ## Contacts information:
 * **Phone number:** +380993589449
