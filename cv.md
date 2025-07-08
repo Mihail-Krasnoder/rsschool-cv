@@ -1,5 +1,5 @@
-# Mihail Vasilika
 ![photo](/smallPersonalPhoto.png)
+# Mihail Vasilika
 ## Contacts information:
 * **Phone number:** +380993589449
 * **Telegram:** @mihailvasilika
@@ -35,3 +35,24 @@ function multiply(a, b){
  return a * b;
 }
 ```
+
+## Experience:
+**Graphic designer:**
+* **2.5 years** of experience at AlreadyMedia, a leading gambling company.
+* **2 years** of experience at FactumAuto, a well-established sales company.
+* **1 year** of experience at Seven Mart, a retail sales company.
+
+## Education:
+* [**ONPU:**](https://op.edu.ua/) Odessa National Polytechnic University:
+    + Bachelor's Degree in Computer Engineering.
+* [**Code Gym course:**](https://codegym.cc/)
+    + Basic HTML.
+    + Basic CSS/SASS.
+    + Basic JavaScript.
+
+## Languages:
+
+1. Russian - native speaker(C2).
+2. Ukrainian - native speaker(C2).
+3. English - Upper-Intermediate(B2).
+
