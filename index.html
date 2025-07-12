@@ -3,8 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mihail Vasilika</title>
+    <title>Personal CV</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section-image">
+                <img src="/images/smallPersonalPhoto.png" alt="My personal CV photo">
+                <section class="main-title">
+                    <h1 class="section-title">Mihail Vasilika</h1>
+                    <p class="subtitle">Junior Front-end developer</p>
+                </section>
+            </section>
+            <section class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="info-list">
+                    <li class="info-item">Telegram: <a href="http://t.me/sspacesurfer">sspacesurfer</a></li>
+                    <li class="info-item">GitHub: <a href="http://github.com/Mihail-Krasnoder">Mihail-Krasnoder</a></li>
+                    <li class="info-item">Email: <a href="mailto:mihailvasilika0@gmail.com">mihailvasilika@gmail.com</a></li>
+                    <li class="info-item">Instagram: <a href="http://instagram.com/mihail_vasilika">mihail_vasilika</a></li>
+                    <li class="info-item">Discord: <a href="https://discordapp.com/users/544961421050642442">Mihail(Mihail-Krasnoder)</a></li>
+                </ul>
+                </section>
+            </section>
+            <section class="about" id="about">
+                <h2 class="section-title">About me</h2>
+                <p>I have been working for 3 years as a graphic designer. Provided services to companies involved 
+                    in various fields of activity, such as automotive sales, betting and gambling, sales of seasonal 
+                    goods transport services and many others.<br> Therefore easily adapt to absolutely any sphere for design.<br>
+                    The main direction of graphic works were banners, posts in social networks, logos and visual parts of the site.<br>
+                    Moreover, I am no stranger to marketing campaigns and branding dynamics, allowing me to effortlessly 
+                    integrate your brand identity into every design element thus maintaining consistent visual aesthetics.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Core skills</h2>
+                <ul class="info-list">
+                    <li class="info-item">Creating banners, posts or other visual components for your web platform and page.</li>
+                    <li class="info-item">Adapting your own banner for different sections/themes.</li>
+                    <li class="info-item">Editing your banner, logo and other visuals.</li>
+                    <li class="info-item">Creating Instagram/Facebook posts.</li>
+                    <li class="info-item">Consultation on selection and combination of colors.</li>
+                    <li class="info-item">Basic edits in HTML and CSS structures.</li>
+                </ul>
+                <p>The primary objective has consistently been and continues to be the pursuit of enriching experiences and 
+                    cultivating proficiency in both design principles and the English language to an exemplary standard.</p>
+            </section>
+            <section class="code" id="code">
+                <h2 class="section-title">Code snippet</h2>
+                <pre><code>
+function fibonacci(n) {
+  if (n < 0) return null;
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+                </pre></code>
+            </section>
+            <section class="experience" id="experience">
+                <h2 class="section-title">Graphic Designer</h2>
+                <ul class="info-list">
+                    <li class="info-item">2.5 years of experience at AlreadyMedia, a leading gambling company.</li>
+                    <li class="info-item">2 years of experience at FactumAuto, a well-established sales company.</li>
+                    <li class="info-item">1 year of experience at Seven Mart, a retail sales company.</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="info-list">
+                    <li class="info-item"><a href="https://op.edu.ua/">ONPU: Odessa National Polytechnic University</a></li>
+                    <li class="info-item"><a href="https://ithillel.ua/?utm_source=google&utm_medium=cpc&utm_campaign=g&utm_content=755019988982&utm_term=hillel%20it%20school&gad_source=1&gad_campaignid=19344359908&gbraid=0AAAAADo_WKsVEQ09ZzotoFVt5cEKl6cMW&gclid=CjwKCAjwyb3DBhBlEiwAqZLe5D8ekDERpliGuWnCw5OU9p_PuIggYAJ0GvwPSpf6MCpyv1Ecs07ibxoCbzoQAvD_BwE">Hillel It School</a></li>
+                    <li class="info-item"><a href="https://codegym.cc/">Code Gym Course</a></li>
+                </ul>
+            </section>
+            <section class="language" id="language">
+                <h2 class="section-title">Language</h2>
+                <ol class="info-list">
+                    <li class="info-item">Russian - native speaker(C2).</li>
+                    <li class="info-item">Ukrainian - native speaker(C2).</li>
+                    <li class="info-item">English - Upper-Intermediate(B2).</li>
+                </ol>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                © 2025
+                <a href="https://github.com/Mihail-Krasnoder/rsschool-cv">Mihail-Krasnoder</a>
+            </div>
+            <img src="images/rs-school-logo.svg" alt="Official school logo">
+        </div>
+    </footer>
 </body>
 </html>
