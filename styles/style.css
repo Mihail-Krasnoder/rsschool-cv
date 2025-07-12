@@ -134,7 +134,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/Telegram_logo.svg.webp");
+  background-image: url("../images/Telegram_logo.svg.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -145,7 +145,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/github-logo.png");
+  background-image: url("../images/github-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -156,7 +156,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/Gmail_icon_(2020).svg.png");
+  background-image: url("../images/Gmail_icon_(2020).svg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -167,7 +167,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/Instagram_icon.png");
+  background-image: url("../images/Instagram_icon.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -178,7 +178,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/pngwing.com (7).png");
+  background-image: url("../images/pngwing.com (7).png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -209,7 +209,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/free-icon-chevron-248424.png");
+  background-image: url("../images/free-icon-chevron-248424.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -241,7 +241,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/free-icon-chevron-248424.png");
+  background-image: url("../images/free-icon-chevron-248424.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -269,7 +269,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/free-icon-quality-7340754.png");
+  background-image: url("../images/free-icon-quality-7340754.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -301,7 +301,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("/images/free-icon-quality-7340754.png");
+  background-image: url("../images/free-icon-quality-7340754.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
