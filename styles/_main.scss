@@ -1,0 +1,282 @@
+@use 'variables' as *;
+
+.container{
+    .block{
+        background-color: $dark-blue;
+        width: 100%;
+        height: 16px;
+        opacity: 0.5;
+    }
+    .section-image{
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        'photo photo title title'
+        'photo photo subtitle subtitle';
+        place-items: center;
+        color: white;
+        .profilePhoto{
+            grid-area: photo;
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s ease, border 0.3s ease;
+            border: 5px solid white;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .section-title{
+            grid-area: title;
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: 300;
+            justify-self: start;
+            padding-top: 24px;
+        }
+        .subtitle{
+            grid-area: subtitle;
+            justify-self: start;
+            font-size: 2em;
+            font-weight: 100;
+        }
+    }
+    .main-container{
+        background-color: #F4F7FA;
+        overflow: hidden;
+        .slim-block{
+            background-color: $dark-blue;
+            width: 50%;
+            height: 2px;
+            opacity: 0.5;
+        }
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 110vh;
+        section{
+            width: 50%;
+            margin: 0 32px;
+            @include flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: left;
+            min-height: 300px;
+            h2{
+                text-transform: uppercase;
+                margin: 0;
+                color: $dark-blue;
+                opacity: 0.7;
+                letter-spacing: 5px;
+                font-weight: 500;
+                margin-top: 32px;
+                margin-bottom: 8px;
+            }
+        }
+        .contacts{
+            .info-list{
+                list-style: none;
+                padding: 0;
+                margin: 8px 0;
+                .info-item{
+                    margin: 12px 0;
+                    font-size: 18px;
+                    font-weight: 400;
+                    @include flex;
+                    justify-content: left;
+                    a{
+                        text-decoration: none;
+                        color: $blue;
+                        &::before{
+                            content: "\00a0";
+                        }
+                    }
+                }
+            }
+            .item1::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../images/Telegram_logo.svg.webp");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                margin-right: 5px;
+            }
+            .item2::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../images/github-logo.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                margin-right: 5px;
+            }
+            .item3::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../images/Gmail_icon_\(2020\).svg.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                margin-right: 5px;
+            }
+            .item4::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../images/Instagram_icon.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                margin-right: 5px;
+            }
+            .item5::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../images/pngwing.com\ \(7\).png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                margin-right: 5px;
+            }
+        }
+        .about{
+            padding-right: 32px;
+        }
+        .skills{
+            padding-right: 32px;
+            .info-list{
+                list-style: none;
+                padding: 0;
+                margin: 8px 0;
+                .info-item{
+                    margin: 10px 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include flex;
+                    justify-content: left;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/free-icon-chevron-248424.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center center;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .code{
+            pre{
+                margin: 16px 0;
+                color: $blue;
+            }
+        }
+        .experience{
+            .info-list{
+                list-style: none;
+                padding: 0;
+                margin: 8px 0;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                .info-item{
+                    margin: 10px 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include flex;
+                    justify-content: left;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/free-icon-chevron-248424.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center center;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .education{
+            .info-list{
+                list-style: none;
+                padding: 0;
+                margin: 8px 0;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                .info-item{
+                    margin: 10px 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include flex;
+                    justify-content: left;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/free-icon-quality-7340754.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center center;
+                        margin-right: 5px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+        .language{
+            .info-list{
+                list-style: none;
+                padding: 0;
+                margin: 8px 0;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                .info-item{
+                    margin: 10px 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include flex;
+                    justify-content: left;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/free-icon-quality-7340754.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center center;
+                        margin-right: 5px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
