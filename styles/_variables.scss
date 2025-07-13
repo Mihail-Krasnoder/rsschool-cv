@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family: 'Roboto', sens-serif;
+$dark-blue: #0b1323;
+$orange: #d77339;
+$grey: #c4c4c4;
+$blue: #2980B9;
+
+@mixin flex(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
