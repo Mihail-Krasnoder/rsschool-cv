@@ -1,0 +1,35 @@
+@use 'variables' as *;
+
+.footer{
+    background-color: $dark-blue;
+    .footer-container{
+        max-width: 1440px;
+        margin: 0 auto;
+        @include flex;
+        justify-content: space-between;
+        padding: 18px 0;
+        color: white;
+        img{
+           width: 100px;
+           height: 50px;
+           transition: transform 0.3s;
+           &:hover{
+            transform: scale(1.1);
+           }
+        }
+        .footer-info{
+            font-size: 20px;
+            font-weight: 200;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                margin-left: 16px;
+                transition: transform 0.3s;
+                &:hover{
+                transform: scale(1.05);
+                }
+            }
+        }
+    } 
+}
